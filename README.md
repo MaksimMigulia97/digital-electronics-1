@@ -1,13 +1,6 @@
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: Maksim Migulia
 
-### De Morgan's laws
-
-1. Equations of all three versions of logic function f(c,b,a):
-
-   ![Logic function](images/equations.png)
-
-2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
-
+De Morgan's laws:
 ```vhdl
 architecture dataflow of demorgan is
 begin
@@ -16,7 +9,6 @@ begin
     f_nor_o  <= (b_i nor not(a_i)) or (c_i nor b_i);
 end architecture dataflow;
 ```
-PPPPErfect
 3. Complete table with logic functions' values:
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** |
@@ -33,9 +25,6 @@ PPPPErfect
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
-
-   ![your figure]()
-
+![image](https://user-images.githubusercontent.com/99403646/154465666-56aefb71-575b-4af0-bffb-09e8bf0d5b3d.png)
 2. Link to your public EDA Playground example:
-
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+https://www.edaplayground.com/x/Sf_c
