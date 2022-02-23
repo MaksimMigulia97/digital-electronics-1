@@ -45,7 +45,6 @@
     end process p_stimulus;
 ```
 
-    end process p_stimulus;
 
 2. Text console screenshot during your simulation, including reports.
 
