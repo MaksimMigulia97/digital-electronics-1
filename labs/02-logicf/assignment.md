@@ -27,11 +27,16 @@
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
 
+           p_stimulus : process
+    begin
+        -- Report a note at the beginning of stimulus process
+        report "Stimulus process started" severity note;
+
         -- First test case
         
-        --INPUT PARAMETRS BY MY ID: 230265
+        --INPUT PARAMETRS BY MY ID: 233261
                 s_b <= "0110"; --6
-                s_a <= "0101"; --5
+                s_a <= "0001"; --1
                 wait for 100 ns;
         assert ((s_B_greater_A = '1') and
                 (s_B_equals_A  = '0') and
