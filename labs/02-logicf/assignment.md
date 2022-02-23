@@ -22,27 +22,29 @@
 
    Last two digits of my student ID: **xxxx??**
 
-     p_stimulus : process
+```vhdl
+    p_stimulus : process
     begin
         -- Report a note at the beginning of stimulus process
         report "Stimulus process started" severity note;
 
         -- First test case
         
-        --INPUT PARAMETRS BY MY ID: 230265
+        --INPUT PARAMETRS BY MY ID: 233261
                 s_b <= "0110"; --6
-                s_a <= "0101"; --5
+                s_a <= "0001"; --1
                 wait for 100 ns;
         assert ((s_B_greater_A = '1') and
-                (s_B_equals_A  = '1') and
-                (s_B_less_A    = '1'))
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
         report "Input combination 0110, 0101 FAILED" severity error;
-
-
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
+    end process p_stimulus;
+```
+
     end process p_stimulus;
 
 2. Text console screenshot during your simulation, including reports.
