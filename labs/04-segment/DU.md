@@ -18,3 +18,8 @@ DU 03 03
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+
+
+
+![image](https://user-images.githubusercontent.com/99397789/156542874-79ad115a-cf15-4d27-b3bb-7c9ff614f953.png)
