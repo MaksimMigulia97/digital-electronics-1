@@ -1,4 +1,4 @@
-# Maksim Migulia
+# Lab 5: Maksim Migulia
 ### Flip-flops
 
 1. Listing of VHDL architecture for T-type flip-flop. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
