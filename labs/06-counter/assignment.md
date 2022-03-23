@@ -41,6 +41,5 @@ Enable
 ![image](https://user-images.githubusercontent.com/99403646/159789009-ddea47f8-3f79-4a0d-86fa-f1cae96316d2.png)
 
 ### Two counters
-
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 ![image](https://user-images.githubusercontent.com/99403646/159789030-cf30f341-da64-482a-ba4a-91eaf3e08cdb.png)
